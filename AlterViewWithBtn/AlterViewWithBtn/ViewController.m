@@ -23,7 +23,9 @@
     btn.backgroundColor = [UIColor greenColor];
     [btn addTarget:self action:@selector(btnPress) forControlEvents:UIControlEventTouchDown];
     btn.frame =CGRectMake(40, 40, 100, 100);
+    [btn setTitle:@"点我" forState:0];
     [self.view addSubview:btn];
+    self.view.backgroundColor = [UIColor grayColor];
 }
 
 - (void)btnPress {
