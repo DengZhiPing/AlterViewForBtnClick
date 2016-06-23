@@ -31,7 +31,7 @@
 - (void)btnPress {
     DZPALterViewWithBtn *alter = [[DZPALterViewWithBtn alloc]init];
     alter.delegate = self;
-    [alter showAlterViewWithMessage:@"这是提示语!"];
+    [alter showAlterViewWithMessage:@"这是提示！！!"];
 }
 
 - (void)didClickButtonAtIndex:(NSUInteger)index{
